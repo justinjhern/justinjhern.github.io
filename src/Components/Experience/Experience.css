@@ -1,0 +1,47 @@
+.experience-title{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 50px;
+  padding-bottom: 25px;
+  padding-top: 300px;
+}
+
+.experience .experience-item {
+  margin-bottom: 20px;
+  padding: 1em 10em;
+}
+
+.experience .experience-item .header,
+.experience .experience-item .sub-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.experience .experience-item .header .company {
+  font-weight: bold;
+  font-size: 1.5em;
+}
+
+.experience .experience-item .header .date {
+  font-size: 1em;
+  color: #bbbbbb;
+}
+
+.experience .experience-item .sub-header .job-title {
+  font-size: 0.9em;
+}
+
+.experience .experience-item .sub-header .location {
+  font-size: 0.9em;
+  color: #bbbbbb;
+}
+
+.experience-item ul {
+  margin-top: 10px;
+}
+
+.experience-item li {
+  margin-bottom: 5px;
+}

@@ -1,0 +1,55 @@
+.profile{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 35px;
+}
+
+.profile img{
+  margin-top: 100px;
+}
+
+.profile-typewriter{
+  text-align: center;
+  width: 50%;
+  font-size: 40px;
+  font-weight: 450;
+}
+
+.profile h1{
+  text-align: center;
+  width: 50%;
+  font-size: 40px;
+  font-weight: 450;
+}
+
+.profile-action{
+  display:flex;
+  align-items: center;
+  gap:25px;
+  font-size:20px;
+  font-weight:495;
+  margin-bottom: 50px;
+}
+
+.profile-contact{
+  padding: 10px 30px;
+  border-radius: 30px;
+  background: linear-gradient(45deg, #03a9fc 0.50%, #3021ff 170%);
+  cursor: pointer;
+}
+
+.profile-resume{
+  padding: 10px 30px;
+  border-radius: 30px;
+  border: 2.5px solid #03a9fc;
+  cursor: pointer;
+}
+
+.profile-contact:hover{
+  border: 2.5px solid white;
+}
+
+.profile-resume:hover{
+  border: 2.5px solid white;
+}
