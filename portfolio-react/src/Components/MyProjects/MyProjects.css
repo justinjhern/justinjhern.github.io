@@ -1,0 +1,35 @@
+.myprojects {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  width: 100%; 
+  padding-bottom: 50px;
+}
+
+.myprojects-title h1 {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 50px;
+  padding-bottom: 50px;
+  padding-top: 300px;
+}
+
+.myprojects-title p {
+  text-align: left;
+  font-size: 25px;
+  font-weight:300;
+}
+
+.myprojects-content a {
+  color: #03a9fc;
+  text-decoration: none"
+}
+
+.myprojects-content {
+  padding-top: 25px;
+  text-align: left;
+}
+
+
