@@ -1,0 +1,43 @@
+.footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #363636; /* Light grey background, change as needed */
+}
+
+.footer-links {
+  display: flex;
+  justify-content: space-around; /* Evenly space items horizontally */
+  align-items: center;
+  margin-bottom: 20px; /* Space between icons and line */
+}
+
+.footer-links a {
+  display: inline-block;
+}
+
+.footer-links img {
+  width: 40px; /* Adjust based on your icon sizes */
+  height: auto;
+}
+
+hr {
+  margin-top: 0;
+  margin-bottom: 10px; /* Space between line and text */
+}
+
+.footer-bottom {
+  display: flex;
+  justify-content: space-between; /* Aligns items to the left and right */
+  align-items: center;
+  padding: 0 20px; /* Padding on sides */
+}
+
+.footer-bottom a {
+  text-decoration: none;
+  color: #FFF/* Color for the link */
+}
+
+.footer-bottom span,
+.footer-bottom a {
+  font-size: 16px; /* Adjust font size as necessary */
+}
