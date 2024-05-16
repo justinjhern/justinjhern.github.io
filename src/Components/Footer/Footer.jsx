@@ -23,7 +23,7 @@ const Footer = () => {
       <hr />
       <div className="footer-bottom">
         <span>Justin Jhern</span>
-        <a href="https://github.com/justinjhern" target="_blank" rel="noopener noreferrer">Source Code</a>
+        <a href="https://github.com/justinjhern/justinjhern.github.io" target="_blank" rel="noopener noreferrer">Source Code</a>
       </div>
     </footer>
   )
